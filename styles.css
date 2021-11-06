@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 450%;
+  color: grey;
+}
+
+h2{
+  font-family:  'Merriweather', serif;
+  color: skyblue;
+}
+
+h3{
+  font-family:  'Merriweather', serif;
+  color: skyblue;
+}
+
+.Chicken-Pasta{
+  background-color: lightskyblue;
+  position: relative;
+  padding-top: 110px;
+}
+
+.Top-Cloud{
+  position: absolute;
+  right: 350px;
+  top: 55px;
+}
+
+.Bottom-Cloud{
+  position: absolute;
+  left: 350px;
+}
+
+.img{
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Skill-Row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 7%;
+  color: grey;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc48d);
+  text-decoration: none;
+}
+
+.Pizza-Base{
+  background-color: lightgrey;
+  position: relative;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+a{
+  font-family:  'Merriweather', serif;
+  color: grey;
+  margin: 0 15px 0 15px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: darkgrey;
+}
